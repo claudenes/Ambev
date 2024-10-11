@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Ambev.Infra.IoC/1.0.0": {
+        "dependencies": {
+          "Ambev.Application": "1.0.0",
+          "Ambev.Infra.Data": "1.0.0"
+        },
+        "runtime": {
+          "Ambev.Infra.IoC.dll": {}
+        }
+      },
+      "Ambev.Application/1.0.0": {
+        "dependencies": {
+          "Ambev.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Ambev.Application.dll": {}
+        }
+      },
+      "Ambev.Domain/1.0.0": {
+        "runtime": {
+          "Ambev.Domain.dll": {}
+        }
+      },
+      "Ambev.Infra.Data/1.0.0": {
+        "dependencies": {
+          "Ambev.Application": "1.0.0",
+          "Ambev.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Ambev.Infra.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ambev.Infra.IoC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ambev.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ambev.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ambev.Infra.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

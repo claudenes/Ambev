@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ambev.API", "Ambev.API\Ambev.API.csproj", "{A38EF9C2-3796-4EC8-85B4-E31BF4C1ACEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ambev.Application", "Ambev.Application\Ambev.Application.csproj", "{5253A0C1-033F-4D5F-AA49-5AF60D24DC68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ambev.Domain", "Ambev.Domain\Ambev.Domain.csproj", "{05290EEA-CDDB-4DE4-B12D-0E6074E19BB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ambev.Domain.Tests", "Ambev.Domain.Tests\Ambev.Domain.Tests.csproj", "{46C6AF80-AB3B-4D50-B960-3840D7FA7FE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ambev.Infra.Data", "Ambev.Infra.Data\Ambev.Infra.Data.csproj", "{AFBECAFD-C411-452C-9D43-51EAF347D34C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ambev.Infra.IoC", "Ambev.Infra.IoC\Ambev.Infra.IoC.csproj", "{11A5FDF0-8C29-4F96-81FD-81F080F0CA2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A38EF9C2-3796-4EC8-85B4-E31BF4C1ACEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A38EF9C2-3796-4EC8-85B4-E31BF4C1ACEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A38EF9C2-3796-4EC8-85B4-E31BF4C1ACEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A38EF9C2-3796-4EC8-85B4-E31BF4C1ACEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5253A0C1-033F-4D5F-AA49-5AF60D24DC68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5253A0C1-033F-4D5F-AA49-5AF60D24DC68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5253A0C1-033F-4D5F-AA49-5AF60D24DC68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5253A0C1-033F-4D5F-AA49-5AF60D24DC68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05290EEA-CDDB-4DE4-B12D-0E6074E19BB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05290EEA-CDDB-4DE4-B12D-0E6074E19BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05290EEA-CDDB-4DE4-B12D-0E6074E19BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05290EEA-CDDB-4DE4-B12D-0E6074E19BB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46C6AF80-AB3B-4D50-B960-3840D7FA7FE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46C6AF80-AB3B-4D50-B960-3840D7FA7FE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46C6AF80-AB3B-4D50-B960-3840D7FA7FE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46C6AF80-AB3B-4D50-B960-3840D7FA7FE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFBECAFD-C411-452C-9D43-51EAF347D34C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFBECAFD-C411-452C-9D43-51EAF347D34C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFBECAFD-C411-452C-9D43-51EAF347D34C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFBECAFD-C411-452C-9D43-51EAF347D34C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11A5FDF0-8C29-4F96-81FD-81F080F0CA2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11A5FDF0-8C29-4F96-81FD-81F080F0CA2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11A5FDF0-8C29-4F96-81FD-81F080F0CA2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11A5FDF0-8C29-4F96-81FD-81F080F0CA2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEDC2CD4-FFA5-4953-9A3A-44F218B6BE52}
+	EndGlobalSection
+EndGlobal

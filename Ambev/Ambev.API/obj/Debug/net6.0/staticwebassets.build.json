@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "776GCNAMcr4D89UCganNbiGUV6leUoAuwLPxE7i6AvQ=",
+  "Source": "Ambev.API",
+  "BasePath": "_content/Ambev.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

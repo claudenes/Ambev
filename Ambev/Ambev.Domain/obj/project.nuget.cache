@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "hV6xiNbe3gv/WopcXtCOhZSVoOj00GyBm44Q4U3yrN+6fADIojaxm21OixMszpWdAT+jdmUz8z2WteDDtKhtTA==",
+  "success": true,
+  "projectFilePath": "C:\\Projetos\\Ambev\\Ambev\\Ambev.Domain\\Ambev.Domain.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://10.10.0.190:61775/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}

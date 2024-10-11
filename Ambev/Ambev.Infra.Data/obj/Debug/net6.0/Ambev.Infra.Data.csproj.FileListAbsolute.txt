@@ -1,0 +1,17 @@
+C:\Projetos\Ambev\Ambev\Ambev.Infra.Data\bin\Debug\net6.0\Ambev.Infra.Data.deps.json
+C:\Projetos\Ambev\Ambev\Ambev.Infra.Data\bin\Debug\net6.0\Ambev.Infra.Data.dll
+C:\Projetos\Ambev\Ambev\Ambev.Infra.Data\bin\Debug\net6.0\Ambev.Infra.Data.pdb
+C:\Projetos\Ambev\Ambev\Ambev.Infra.Data\bin\Debug\net6.0\Ambev.Application.dll
+C:\Projetos\Ambev\Ambev\Ambev.Infra.Data\bin\Debug\net6.0\Ambev.Domain.dll
+C:\Projetos\Ambev\Ambev\Ambev.Infra.Data\bin\Debug\net6.0\Ambev.Application.pdb
+C:\Projetos\Ambev\Ambev\Ambev.Infra.Data\bin\Debug\net6.0\Ambev.Domain.pdb
+C:\Projetos\Ambev\Ambev\Ambev.Infra.Data\obj\Debug\net6.0\Ambev.Infra.Data.csproj.AssemblyReference.cache
+C:\Projetos\Ambev\Ambev\Ambev.Infra.Data\obj\Debug\net6.0\Ambev.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Ambev\Ambev\Ambev.Infra.Data\obj\Debug\net6.0\Ambev.Infra.Data.AssemblyInfoInputs.cache
+C:\Projetos\Ambev\Ambev\Ambev.Infra.Data\obj\Debug\net6.0\Ambev.Infra.Data.AssemblyInfo.cs
+C:\Projetos\Ambev\Ambev\Ambev.Infra.Data\obj\Debug\net6.0\Ambev.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Projetos\Ambev\Ambev\Ambev.Infra.Data\obj\Debug\net6.0\Ambev.Infra.Data.csproj.CopyComplete
+C:\Projetos\Ambev\Ambev\Ambev.Infra.Data\obj\Debug\net6.0\Ambev.Infra.Data.dll
+C:\Projetos\Ambev\Ambev\Ambev.Infra.Data\obj\Debug\net6.0\refint\Ambev.Infra.Data.dll
+C:\Projetos\Ambev\Ambev\Ambev.Infra.Data\obj\Debug\net6.0\Ambev.Infra.Data.pdb
+C:\Projetos\Ambev\Ambev\Ambev.Infra.Data\obj\Debug\net6.0\ref\Ambev.Infra.Data.dll
