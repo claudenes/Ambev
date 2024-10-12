@@ -11,4 +11,11 @@
     <ProjectReference Include="..\Ambev.Domain\Ambev.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Context\" />
+    <Folder Include="Mapping\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="Queries\" />
+  </ItemGroup>
+
 </Project>
