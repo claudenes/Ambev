@@ -1,9 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "m4KGUOj/5alyUfOzyc1VyyTVaufmV2IKGBbY2sU4OMQHBD3FvRYBKjD1ugtuAJj5ejm2p26vTGMiFqzV1GwCRQ==",
+  "dgSpecHash": "WXCl5zd5svaZPWTPhSdmWKM1r0MnWLL7Az+YOiebaR5IV8tinmQyD0alF+ctH6ZBw9sKhXgLk7yFMe+EuRMd5w==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\Ambev\\Ambev\\Ambev.Application\\Ambev.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\claud\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\fluentassertions\\6.12.1\\fluentassertions.6.12.1.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.0\\system.configuration.configurationmanager.4.4.0.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.4.0\\system.security.cryptography.protecteddata.4.4.0.nupkg.sha512"
+  ],
   "logs": [
     {
       "code": "NU1803",
