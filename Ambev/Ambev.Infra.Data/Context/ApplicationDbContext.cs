@@ -10,6 +10,7 @@ namespace Ambev.Infra.Data.Context
         public DbSet<Venda> Venda { get; set; }
         public DbSet<Produto> Produto { get; set; }
         public DbSet<Filial> Filial { get; set; }
+        public DbSet<VendaProduto> VendaProdutos { get; set; }
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
 
@@ -21,6 +22,7 @@ namespace Ambev.Infra.Data.Context
             modelBuilder.Entity<Venda>(new VendaMap().Configure);
             modelBuilder.Entity<Produto>(new ProdutoMap().Configure);
             modelBuilder.Entity<Filial>(new FilialMap().Configure);
+            modelBuilder.Entity<VendaProduto>(new VendaProdutoMap().Configure);
         }
     }
 }

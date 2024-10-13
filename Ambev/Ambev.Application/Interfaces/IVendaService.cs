@@ -5,9 +5,9 @@ namespace Ambev.Application.Interfaces
     public interface IVendaService
     {
         VendaDto Create(VendaDto venda);
-        VendaDto Read(Guid Id);
+        VendaDto Read(int Id);
         VendaDto Update(VendaDto venda);
-        VendaDto Delete(Guid Id);
+        VendaDto Delete(int Id);
         IEnumerable<VendaDto> ListAll();
 
     }

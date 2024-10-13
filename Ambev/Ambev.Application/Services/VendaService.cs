@@ -22,7 +22,7 @@ namespace Ambev.Application.Services
             return _mapper.Map<VendaDto>(_repository.Create(_mapper.Map<Venda>(venda)));
         }
 
-        public VendaDto Delete(Guid Id)
+        public VendaDto Delete(int Id)
         {
             return _mapper.Map<VendaDto>(_repository.Delete(Id));
         }
@@ -32,7 +32,7 @@ namespace Ambev.Application.Services
             return _mapper.Map<IEnumerable<VendaDto>>(_repository.ReadAll());
         }
 
-        public VendaDto Read(Guid Id)
+        public VendaDto Read(int Id)
         {
             return _mapper.Map<VendaDto>(_repository.ReadById(Id));
         }

@@ -4,9 +4,9 @@ namespace Ambev.Domain.Interfaces
 {
     public interface IResourceRepository<TEntity> where TEntity : class
     {
-        TEntity Delete(Guid id);
+        TEntity Delete(int id);
         IList<TEntity> ReadAll();
-        TEntity ReadById(Guid id);
+        TEntity ReadById(int id);
         TEntity Create(TEntity o);
         TEntity Update(TEntity o);
         IQueryable<TEntity> FindBy(Expression<Func<TEntity, bool>> predicate, params Expression<Func<TEntity, object>>[] includes);

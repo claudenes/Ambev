@@ -10,7 +10,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Bogus" Version="35.6.1" />
+    <PackageReference Include="FluentAssertions" Version="6.12.1" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.5.0" />
+    <PackageReference Include="NSubstitute" Version="5.1.0" />
     <PackageReference Include="xunit" Version="2.4.2" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -25,13 +28,6 @@
   <ItemGroup>
     <ProjectReference Include="..\Ambev.API\Ambev.API.csproj" />
     <ProjectReference Include="..\Ambev.Application\Ambev.Application.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Application\" />
-    <Folder Include="Common\" />
-    <Folder Include="Controller\" />
-    <Folder Include="Domain\" />
   </ItemGroup>
 
 </Project>

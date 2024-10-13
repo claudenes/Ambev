@@ -10,13 +10,35 @@ namespace Ambev.Infra.Data.Mapping
         {
             builder.ToTable("Venda");
             builder.HasKey(x => x.Id);
+            builder.HasOne(x => x.Cliente);
+            builder.HasOne(x => x.Filial);
+            builder.HasMany(x => x.VendaProduto);
             builder.Property(x => x.Id)
                 .ValueGeneratedOnAdd()
-                .HasColumnName("Id")
+                .HasColumnName("ID_VENDA")
                 .HasColumnType("Int")
                 .IsRequired();
-            
-            
+            builder.Property(x => x.ClienteId)
+                .HasColumnName("ID_CLIENTE")
+                .HasColumnType("Int")
+                .IsRequired();
+            builder.Property(x => x.FilialId)
+                .HasColumnName("ID_FILIAL")
+                .HasColumnType("Int")
+                .IsRequired();
+            builder.Property(x => x.ValorTotalVenda)
+                .HasColumnName("VALOR_TOTAL")
+                .HasColumnType("DECIMAL")
+                .IsRequired();
+            builder.Property(x => x.DataVenda)
+                .HasColumnName("DATA_VENDA")
+                .HasColumnType("DATETIME")
+                .IsRequired();
+            builder.Property(x => x.Cancelado)
+                .HasColumnName("CANCELADO")
+                .HasColumnType("BIT")
+                .IsRequired();
+
         }
     }
 }

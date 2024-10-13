@@ -35,7 +35,7 @@ namespace Ambev.Infra.Data.Repositories
             return o;
         }
 
-        public TEntity Delete(Guid id)
+        public TEntity Delete(int id)
         {
             TEntity o = ReadById(id);
             if(o != null)
@@ -82,7 +82,7 @@ namespace Ambev.Infra.Data.Repositories
             return _db.Set<TEntity>().ToList<TEntity>();
         }
 
-        public TEntity ReadById(Guid id)
+        public TEntity ReadById(int id)
         {
             TEntity o = _db.Set<TEntity>().Find(id);
             if (o != null)

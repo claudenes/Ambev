@@ -8,25 +8,25 @@ namespace Ambev.Infra.Data.Mapping
     {
         public void Configure(EntityTypeBuilder<Produto> builder) 
         {
-            builder.ToTable("Produto");
+            builder.ToTable("PRODUTO");
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Id)
                 .ValueGeneratedOnAdd()
-                .HasColumnName("Id")
+                .HasColumnName("ID_PRODUTO")
                 .HasColumnType("Int")
                 .IsRequired();
             builder.Property(x => x.Nome)
-                .HasColumnName("Nome")
+                .HasColumnName("NOME_PRODUTO")
                 .HasColumnType("VARCHAR")
                 .HasMaxLength(5000)
                 .IsRequired();
             builder.Property(x => x.Tipo)
-                .HasColumnName("Tipo")
+                .HasColumnName("TIPO_PRODUTO")
                 .HasColumnType("VARCHAR")
                 .HasMaxLength(10)
                 .IsRequired();
             builder.Property(x => x.Valor)
-                .HasColumnName("Valor")
+                .HasColumnName("VALOR")
                 .HasColumnType("DECIMAL")
                 .IsRequired();
 

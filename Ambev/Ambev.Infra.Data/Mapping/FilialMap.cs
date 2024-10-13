@@ -8,15 +8,15 @@ namespace Ambev.Infra.Data.Mapping
     {
         public void Configure(EntityTypeBuilder<Filial> builder) 
         {
-            builder.ToTable("Filial");
+            builder.ToTable("FILIAL");
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Id)
                 .ValueGeneratedOnAdd()
-                .HasColumnName("Id")
+                .HasColumnName("ID_FILIAL")
                 .HasColumnType("Int")
                 .IsRequired();
             builder.Property(x => x.Nome)
-                .HasColumnName("Filial")
+                .HasColumnName("NOME_FILIAL")
                 .HasColumnType("VARCHAR")
                 .HasMaxLength(100)
                 .IsRequired();

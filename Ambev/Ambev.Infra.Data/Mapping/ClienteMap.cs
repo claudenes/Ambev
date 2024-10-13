@@ -8,15 +8,15 @@ namespace Ambev.Infra.Data.Mapping
     {
         public void Configure(EntityTypeBuilder<Cliente> builder) 
         {
-            builder.ToTable("Cliente");
+            builder.ToTable("CLIENTE");
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Id)
                 .ValueGeneratedOnAdd()
-                .HasColumnName("Id")
+                .HasColumnName("ID_CLIENTE")
                 .HasColumnType("Int")
                 .IsRequired();
             builder.Property(x => x.Nome)
-                .HasColumnName("Nome")
+                .HasColumnName("NOME_CLIENTE")
                 .HasColumnType("VARCHAR")
                 .HasMaxLength(5000)
                 .IsRequired();
@@ -26,7 +26,7 @@ namespace Ambev.Infra.Data.Mapping
                 .HasMaxLength(10)
                 .IsRequired();
             builder.Property(x => x.DataNascimento)
-                .HasColumnName("DataNascimento")
+                .HasColumnName("DATA_NASCIMENTO")
                 .HasColumnType("DATETIME")
                 .IsRequired();
             

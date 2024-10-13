@@ -29,7 +29,7 @@ namespace Ambev.API.Controllers
             return _service.Update(vendaDto);
         }
         [HttpDelete]
-        public Object Delete(Guid Id)
+        public Object Delete(int Id)
         {
             return _service.Delete(Id);
         }
