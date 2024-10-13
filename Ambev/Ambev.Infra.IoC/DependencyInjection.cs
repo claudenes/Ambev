@@ -22,7 +22,7 @@ namespace Ambev.Infra.IoC
             services.AddScoped<IVendaRepository, VendaRepository>();
             services.AddAutoMapper(typeof(DomainToDtoMappingProfile));
 
-            var myhandlers = AppDomain.CurrentDomain.Load("Unico.Application");
+            var myhandlers = AppDomain.CurrentDomain.Load("Ambev.Application");
 
             return services;
         }
