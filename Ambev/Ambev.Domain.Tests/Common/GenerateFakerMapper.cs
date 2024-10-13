@@ -12,8 +12,9 @@ namespace Ambev.Domain.Tests.Common
             {
                 cfg.CreateMap<Cliente, ClienteDto>().ReverseMap();
                 cfg.CreateMap<Produto, ProdutoDto>().ReverseMap();
-                cfg.CreateMap<VendaDto, VendaDto>().ReverseMap();
+                cfg.CreateMap<Venda, VendaDto>().ReverseMap();
                 cfg.CreateMap<Filial, FilialDto>().ReverseMap();
+                cfg.CreateMap<VendaProduto, VendaProdutoDto>().ReverseMap();
 
             });
             IMapper mapper = new Mapper(autoMapperConfig);
