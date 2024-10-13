@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "WXCl5zd5svaZPWTPhSdmWKM1r0MnWLL7Az+YOiebaR5IV8tinmQyD0alF+ctH6ZBw9sKhXgLk7yFMe+EuRMd5w==",
+  "dgSpecHash": "WpnCWUruXN7DULP1QoZFyNYsV9jPRU0iK8u7+wXmdi9sixSDzUQ0HzP1ul8EnV5O6o0nmR6++59QmTsvCLA3Cg==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\Ambev\\Ambev\\Ambev.Application\\Ambev.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\claud\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\fluentassertions\\6.12.1\\fluentassertions.6.12.1.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",

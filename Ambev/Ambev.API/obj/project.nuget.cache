@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "164znzPPHTe+ml1DCJUR7b7NVY40WKTZMr+EW4HeFCUHGjBlJfY400C42TuKIPJc8kwSTELiiBSl0FiCrCyDfw==",
+  "dgSpecHash": "p5K3GdI5wFMIENv47QVYhTocvhzeeT9NzoGsE4qYXRsvqrbdq4sylrnT4aozOquGKVJVc0F0FrDYxz6xPDOUxA==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\Ambev\\Ambev\\Ambev.API\\Ambev.API.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\claud\\.nuget\\packages\\documentformat.openxml.framework\\3.0.1\\documentformat.openxml.framework.3.0.1.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\excelnumberformat\\1.1.0\\excelnumberformat.1.1.0.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\fluentassertions\\6.12.1\\fluentassertions.6.12.1.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

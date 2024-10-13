@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "/4Z+E7GWiAMyRstN1XE4RVPL031VYZwHhurXHmAwLVMzOEOZPaoj1zFe8VebglswAVPz8mpjBbyJAg+ZaJDMmg==",
+  "dgSpecHash": "CfpFZITuihV6iWUzxfACHOtXf9K3f3m7kdFzjmaG70Imm3bm8El7sJYgOR2q00GaPzMC/lbRj61MMzOr12BZ7g==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\Ambev\\Ambev\\Ambev.Infra.Data\\Ambev.Infra.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\claud\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\fluentassertions\\6.12.1\\fluentassertions.6.12.1.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.7\\microsoft.data.sqlclient.2.1.7.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",

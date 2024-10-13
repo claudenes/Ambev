@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RFxGK456jWiPmxOFC8ONDIgU59bIPLQmaGI+aZgnaN83dZg/Nrh1dFNDbFELeqEUCgYFFiJFYz23nQFaf9Pi0w==",
+  "dgSpecHash": "Tf32ZSqoQ2s0G96AWNLDZ4UGmDvDk0uxuWU9YZDGHCXhPTpyAsFXuuo7m3xH0xflSZK4NpxMGqI9CjSgC6Uq3w==",
   "success": true,
   "projectFilePath": "C:\\Projetos\\Ambev\\Ambev\\Ambev.Domain.Tests\\Ambev.Domain.Tests.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "C:\\Users\\claud\\.nuget\\packages\\documentformat.openxml.framework\\3.0.1\\documentformat.openxml.framework.3.0.1.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\excelnumberformat\\1.1.0\\excelnumberformat.1.1.0.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\fluentassertions\\6.12.1\\fluentassertions.6.12.1.nupkg.sha512",
+    "C:\\Users\\claud\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\claud\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
