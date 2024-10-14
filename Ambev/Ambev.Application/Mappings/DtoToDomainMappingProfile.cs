@@ -12,6 +12,8 @@ namespace Ambev.Application.Mappings
             CreateMap<ClienteDto, Cliente>().ReverseMap();
             CreateMap<FilialDto, Filial>().ReverseMap();
             CreateMap<VendaDto, Venda>().ReverseMap();
+            CreateMap<VendaProdutoDto, VendaProduto>().ReverseMap();
+
         }
     }
 }

@@ -3,7 +3,7 @@
     public class Venda : BaseEntity
     {
         public DateTime DataVenda { get; set; }
-        public double ValorTotalVenda { get; set; }
+        public decimal ValorTotalVenda { get; set; }
         public int ClienteId { get; set; }
         public int FilialId { get; set; }
         public bool Cancelado { get; set; }

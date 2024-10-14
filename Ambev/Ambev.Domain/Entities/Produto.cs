@@ -4,6 +4,7 @@
     {
         public string Nome { get; set; }
         public string Tipo { get; set; }
-        public double Valor { get; set; }
+        public decimal Valor { get; set; }
+        public virtual List<VendaProduto>? VendaProduto { get; set; }
     }
 }

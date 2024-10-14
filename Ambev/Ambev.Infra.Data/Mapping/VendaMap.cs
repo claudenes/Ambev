@@ -8,11 +8,11 @@ namespace Ambev.Infra.Data.Mapping
     {
         public void Configure(EntityTypeBuilder<Venda> builder) 
         {
-            builder.ToTable("Venda");
+            builder.ToTable("VENDA");
             builder.HasKey(x => x.Id);
             builder.HasOne(x => x.Cliente);
             builder.HasOne(x => x.Filial);
-            builder.HasMany(x => x.VendaProduto);
+            //builder.HasMany(x => x.VendaProduto);
             builder.Property(x => x.Id)
                 .ValueGeneratedOnAdd()
                 .HasColumnName("ID_VENDA")

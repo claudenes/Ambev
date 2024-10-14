@@ -10,6 +10,7 @@ namespace Ambev.Infra.Data.Mapping
         {
             builder.ToTable("PRODUTO");
             builder.HasKey(x => x.Id);
+            //builder.HasMany(x => x.VendaProduto);
             builder.Property(x => x.Id)
                 .ValueGeneratedOnAdd()
                 .HasColumnName("ID_PRODUTO")

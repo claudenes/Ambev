@@ -1,10 +1,12 @@
-﻿namespace Ambev.Application.Dtos
+﻿using Ambev.Domain.Entities;
+
+namespace Ambev.Application.Dtos
 {
     public class VendaDto
     {
         public int Id { get; set; }
         public DateTime DataVenda { get; set; }
-        public double ValorTotalVenda { get; set; }
+        public decimal ValorTotalVenda { get; set; }
         public int ClienteId { get; set; }
         public int FilialId { get; set; }
         public bool Cancelado { get; set; }

@@ -9,17 +9,41 @@ namespace Ambev.Application.Services
     public class VendaService : IVendaService
     {
         private readonly IVendaRepository _repository;
+        private readonly IVendaProdutoRepository _vendaProdutoRepository;
+        private readonly IProdutoRepository _produtoRepository;
         private readonly IMapper _mapper;
 
-        public VendaService(IVendaRepository repository, IMapper mapper)
+        public VendaService(IVendaRepository repository, IVendaProdutoRepository vendaProdutoRepository,IProdutoRepository produtoRepository, IMapper mapper)
         {
             _repository = repository;
+            _vendaProdutoRepository = vendaProdutoRepository;
+            _produtoRepository = produtoRepository;
             _mapper = mapper;
         }
 
         public VendaDto Create(VendaDto venda)
         {
-            return _mapper.Map<VendaDto>(_repository.Create(_mapper.Map<Venda>(venda)));
+            venda.ValorTotalVenda = CalculaValorTotal(venda.VendaProduto);
+            var results = _mapper.Map<VendaDto>(_repository.Create(_mapper.Map<Venda>(venda)));
+            if(results != null)
+            {
+                foreach(var item in venda.VendaProduto)
+                {
+                    item.VendaId = results.Id;
+                    _vendaProdutoRepository.Create(_mapper.Map<VendaProduto>(item));
+                }
+            }
+
+            return results;
+        }
+        private decimal CalculaValorTotal(List<VendaProdutoDto> vendaProdutoDto)
+        {
+            decimal valortotal = 0;
+            foreach (var item in vendaProdutoDto)
+            {
+                valortotal = valortotal + _produtoRepository.ReadById(item.ProdutoId).Valor;
+            }
+            return valortotal;
         }
 
         public VendaDto Delete(int Id)

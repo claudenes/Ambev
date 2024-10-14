@@ -20,6 +20,7 @@ namespace Ambev.Infra.IoC
             services.AddScoped<IProdutoRepository, ProdutoRepository>();
             services.AddScoped<IFilialRepository, FilialRepository>();
             services.AddScoped<IVendaRepository, VendaRepository>();
+            services.AddScoped<IVendaProdutoRepository, VendaProdutoRepository>();
             services.AddAutoMapper(typeof(DomainToDtoMappingProfile));
 
             var myhandlers = AppDomain.CurrentDomain.Load("Ambev.Application");

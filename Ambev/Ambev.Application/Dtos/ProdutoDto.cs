@@ -1,4 +1,6 @@
-﻿namespace Ambev.Application.Dtos
+﻿using Ambev.Domain.Entities;
+
+namespace Ambev.Application.Dtos
 {
     public class ProdutoDto 
     {
@@ -6,5 +8,6 @@
         public string Nome { get; set; }
         public string Tipo { get; set; }
         public double Valor { get; set; }
+        public virtual List<VendaProdutoDto>? VendaProduto { get; set; }
     }
 }
