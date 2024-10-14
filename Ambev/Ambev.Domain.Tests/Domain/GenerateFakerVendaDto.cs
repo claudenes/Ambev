@@ -14,7 +14,7 @@ namespace Ambev.Domain.Tests.Domain
             .RuleFor(x => x.FilialId, f => f.Random.Int())
             .RuleFor(x => x.DataVenda, f => f.Date.Past())
             .RuleFor(x => x.Cancelado, f => true)
-            .RuleFor(x => x.ValorTotalVenda, f => f.Random.Double())
+            .RuleFor(x => x.ValorTotalVenda, f => f.Random.Decimal())
             .RuleFor(x => x.Cliente, f => new ClienteDto())
             .RuleFor(x => x.Filial, f => new FilialDto())
             .RuleFor(x => x.VendaProduto, f => new List<VendaProdutoDto>());

@@ -16,16 +16,20 @@ namespace Ambev.Domain.Tests.Application
     {
         private readonly IVendaRepository _repository;
         private readonly IVendaService _service;
+        private readonly IVendaProdutoRepository _vendaProdutoRepository;
+        private readonly IProdutoRepository _produtoRepository;
 
         public VendaServiceTest()
         {
             _repository = Substitute.For<IVendaRepository>();
-            _service = new VendaService(_repository, GenerateFakerMapper.AddMapperConfiguration());
+            _vendaProdutoRepository = Substitute.For<IVendaProdutoRepository>();
+            _produtoRepository = Substitute.For<IProdutoRepository>();
+            _service = new VendaService(_repository, _vendaProdutoRepository, _produtoRepository, GenerateFakerMapper.AddMapperConfiguration());
         }
         [Fact]
         public void Constructor()
         {
-            var result = new VendaService(_repository, GenerateFakerMapper.AddMapperConfiguration());
+            var result = new VendaService(_repository, _vendaProdutoRepository, _produtoRepository, GenerateFakerMapper.AddMapperConfiguration());
             result.Should().NotBeNull();
 
         }
